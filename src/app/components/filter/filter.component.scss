@@ -1,0 +1,31 @@
+.filter {
+  width: 100%;
+  height: 100%;
+}
+
+.form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+  &__name {
+    padding: 1;
+  }
+
+  &__date-picker {
+    padding: 1;
+
+  }
+
+  &__status {
+    padding: 1;
+  }
+
+  &__button {
+    padding: 1;
+  }
+}
